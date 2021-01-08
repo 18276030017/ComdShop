@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.text.DecimalFormat;
 
-public class ReadExcel {
+public class ReadUserExcel {
     /*
     readExcel是什么方法？成员方法
      */
