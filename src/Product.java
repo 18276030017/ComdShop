@@ -1,29 +1,38 @@
 public class Product {
-    private int Cno;
-    private String Cname;
+    private String PID;
+    private String Pname;
     private float price;
+    private String Desc;
 
-    public int getCno() {
-        return Cno;
+    public void setPID(String PID) {
+        this.PID = PID;
     }
 
-    public void setCno(int cno) {
-        Cno = cno;
+    public void setPname(String pname) {
+        Pname = pname;
     }
 
-    public String getCname() {
-        return Cname;
+    public void setPrice(float price) {
+        this.price = price;
     }
 
-    public void setCname(String cname) {
-        Cname = cname;
+    public void setDesc(String desc) {
+        Desc = desc;
+    }
+
+    public String getPID() {
+        return PID;
+    }
+
+    public String getPname() {
+        return Pname;
     }
 
     public float getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
-        this.price = price;
+    public String getDesc() {
+        return Desc;
     }
 }
